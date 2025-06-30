@@ -16,7 +16,9 @@ jobs:
           npm install --save-dev parcel
       - name: Build with Parcel
         run: |
+          npm install
           npx parcel build src/*.html --dist-dir dist --public-url .
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
