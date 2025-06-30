@@ -1,0 +1,13 @@
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #eef;
+}
+
+form {
+  margin: 20px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+}
